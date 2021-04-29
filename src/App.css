@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+body {
+  background-color: #2d2d2e;
+}
+.stickyNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+}
+.stickyNav h1 {
+  margin: 26px 70px 0 0;
+}
+.stickyUl a:active {
+  text-decoration: underline yellow;
+}
+.stickyUl {
+  display: flex;
+  list-style-type: none;
+}
+.stickyUl li {
+  display: inline;
+  margin: 20px 20px 20px 0;
+}
+.liBorder {
+  border: 1px solid white;
+  border-radius: 13px;
+  padding: 10px 35px 10px 35px;
+}
+.liNoBorder {
+  border: 1px solid transparent;
+  padding: 10px 20px 10px 20px;
+}
+section {
+  margin: 150px;
+}
+.caseBtn,
+button {
+  background-color: #2e525e;
+  padding: 10px 20px 10px 20px;
+  border-radius: 16px;
+  margin: 40px;
+}
+.comingSoon {
+  margin: 40px;
+}
