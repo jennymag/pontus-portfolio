@@ -1,8 +1,8 @@
 import "../App.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import StickyNav from "../StickyNav/StickyNav";
 import Landing from "../Landing/Landing";
 import Case from "../Projects/Case";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (

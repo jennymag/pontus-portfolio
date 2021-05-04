@@ -1,26 +1,28 @@
-import { Link } from "react-scroll";
+import { useHistory } from "react-router";
+/* import { Link } from "react-scroll"; */
+import { HashLink as Link } from "react-router-hash-link";
 
 function StickyNav() {
   return (
     <nav className="stickyNav">
       <ul className="stickyUl">
         <li className="liNoBorder li">
-          <Link activeClass="active" to="about" spy={true} smooth={true}>
+          <Link smooth to="/#about">
             This is me
           </Link>
         </li>
         <li className="liNoBorder">
-          <Link activeClass="active" to="projects" spy={true} smooth={true}>
+          <Link smooth to="/#projects">
             Projects
           </Link>
         </li>
         <li className="liNoBorder">
-          <Link activeClass="active" to="resume" spy={true} smooth={true}>
+          <Link smooth to="/#resume">
             Resume
           </Link>
         </li>
         <li className="liBorder">
-          <Link activeClass="active" to="contact" spy={true} smooth={true}>
+          <Link smooth to="/#contact">
             Contact
           </Link>
         </li>
