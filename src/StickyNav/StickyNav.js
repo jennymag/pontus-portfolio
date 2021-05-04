@@ -7,7 +7,7 @@ function StickyNav() {
     <nav className="stickyNav">
       <ul className="stickyUl">
         <li className="liNoBorder li">
-          <Link smooth to="/#about">
+          <Link smooth to="/">
             This is me
           </Link>
         </li>
