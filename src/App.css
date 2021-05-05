@@ -31,7 +31,7 @@ body {
   text-decoration: none;
 }
 .stickyUl a:hover {
-  text-decoration: underline 3px yellow;
+  text-decoration: underline 3px #ffc657;
 }
 .stickyUl {
   display: flex;
@@ -70,6 +70,7 @@ body {
   background-color: #2e525e;
   padding: 10px 20px 10px 20px;
   border-radius: 16px;
+  letter-spacing: 2px;
   margin-top: 30px;
   font-weight: 500;
   text-transform: uppercase;
@@ -79,11 +80,12 @@ body {
 .comingSoon {
   margin-top: 30px;
   text-transform: uppercase;
+  letter-spacing: 2px;
   font-size: 15px;
   font-weight: 500;
 }
 .yellowColor {
-  color: yellow;
+  color: #ffc657;
 }
 .projectH1 {
   max-width: 350px;
@@ -123,4 +125,68 @@ body {
   border-radius: 100%;
   background: #2e525e;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+}
+.resumeH1 {
+  font-size: 30px;
+  padding: 120px 0px 50px 0px;
+  text-align: center;
+}
+.resumeBtn {
+  margin: 20px;
+  padding: 20px 30px 20px 30px;
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 24px;
+  border: 1px solid #575361;
+  font-weight: 400;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.resumeBtnWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactH1 {
+  font-size: 25px;
+  max-width: 600px;
+  font-weight: 350;
+}
+.contactBtn {
+  background-color: #fdc456;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  padding: 20px 25px 20px 25px;
+}
+.contactBtn a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 17px;
+}
+.yellowCircle {
+  margin-left: 75%;
+  width: 812px;
+  height: 812px;
+  border-radius: 100%;
+  background: #fdc456;
+}
+.blueCircle {
+  position: relative;
+  width: 770px;
+  height: 770px;
+  border-radius: 100%;
+  background: #2e525e;
+  top: 20px;
+  left: 30px;
+}
+.contactField {
+  margin-top: 200px;
+  position: absolute;
+  background-color: #2d2d2e;
+  padding: 120px;
+  margin-bottom: 150px;
+  min-width: 100%;
 }
