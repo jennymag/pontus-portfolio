@@ -137,6 +137,10 @@ body {
   align-items: center;
   padding: 70px;
 }
+#caseProfile {
+  padding: 100px;
+  color: white;
+}
 .projectCard {
   display: flex;
   max-width: 1000px;

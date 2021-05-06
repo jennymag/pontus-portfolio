@@ -1,5 +1,3 @@
-import { useHistory } from "react-router";
-/* import { Link } from "react-scroll"; */
 import { HashLink as Link } from "react-router-hash-link";
 
 function StickyNav() {

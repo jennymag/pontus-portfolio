@@ -1,15 +1,20 @@
 import { useHistory } from "react-router";
-import projectsData from "./projectData";
-import hon from "../images/Honolulu.jpg";
+import projectData from "./projectData";
 
 function Projects() {
   let history = useHistory();
 
-  function handleClick(title) {
+  function handleClick(title, text) {
     return function () {
-      history.push(`/${title}`);
+      history.push({
+        pathname: `/${title}`,
+        state: {
+          brief: text,
+        },
+      });
     };
   }
+
   return (
     <section id="projects">
       <h1 className="projectH1">
@@ -18,7 +23,7 @@ function Projects() {
       </h1>
 
       <div className="case">
-        {projectsData.map((project) => (
+        {projectData.map((project) => (
           <div className="projectCard" key={project.id}>
             <div className="roundShape"></div>
             <div className="project">
@@ -27,7 +32,7 @@ function Projects() {
               {project.isFinished ? (
                 <button
                   className="caseBtn"
-                  onClick={handleClick(project.title)}
+                  onClick={handleClick(project.title, project.brief)}
                 >
                   case study
                 </button>

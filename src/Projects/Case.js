@@ -1,11 +1,22 @@
-import Contact from "../Contact/Contact";
-import Resume from "../Resume/Resume";
+import { useParams, useHistory } from "react-router";
+import projectData from "./projectData";
 
 function Case() {
+  const { title } = useParams();
+  let history = useHistory();
+  const brief = history.location.state.brief;
+
   return (
-    <section>
-      <h1>hej</h1>
-      <p>hej</p>
+    <section id="caseProfile">
+      <h1>{title}</h1>
+      <p>{brief}</p>
+      {projectData.map((obj) => (
+        <ul>
+          <li>
+            {obj.aboutProject.map((category) => ...)}
+            </li>
+        </ul>
+      ))}
     </section>
   );
 }
