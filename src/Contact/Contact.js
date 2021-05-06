@@ -4,7 +4,7 @@ function Contact() {
       <div className="contactField">
         <h1 className="contactH1">
           Do you think we can achieve great things together? Let’s talk more
-          over a coffé!
+          over a coffee!
         </h1>
         <button className="contactBtn">
           <a href="mailto:pontus">send me an email</a>

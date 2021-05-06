@@ -86,6 +86,12 @@ body {
   background: #ffc657;
   box-shadow: 60px 60px 100px rgba(0, 0, 0, 0.25);
 }
+.avatar {
+  width: 90%;
+  border-radius: 70%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
 .aboutH1 {
   font-size: 70px;
   max-width: 400px;

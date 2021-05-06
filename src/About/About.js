@@ -1,3 +1,5 @@
+import avatar from "../images/IMG_5223.jpeg";
+
 function About() {
   return (
     <section id="about">
@@ -15,7 +17,9 @@ function About() {
       </div>
       <div className="aboutCard"></div>
       <div className="aboutBlueCircle"></div>
-      <div className="aboutYellowCircle"></div>
+      <div className="aboutYellowCircle">
+        <img className="avatar" src={avatar} alt="avatar" />
+      </div>
     </section>
   );
 }
