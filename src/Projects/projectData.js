@@ -12,25 +12,53 @@ const projectData = [
         text: "write your text here",
       },
       {
-        title: "Team",
+        title: "The team",
         text: "write your text here",
       },
       {
-        title: "Overview and context",
+        title: "The challenge",
         text: "write your text here",
       },
-      (team: "write your text here"),
-      (challenge: "write your text here"),
-      (understandingTheUser: "write your text here"),
-      (synthesizingTheMat: "write your text here"),
-      (idealtingSol: "write your text here"),
-      (otherIdeaSol: "write your text here"),
-      (lowfiProt: "write your text here"),
-      (testingLofiWithUser: "write your text here"),
-      (hifiProt: "write your text here"),
-      (resultsImpacts: "write your text here"),
-      (majorLearnings: "write your text here"),
-      (lessonsLearned: "write your text here"),
+      {
+        title: "Understanding the user",
+        text: "write your text here",
+      },
+      {
+        title: "Synthesizing the material",
+        text: "write your text here",
+      },
+      {
+        title: "Ideating solutions",
+        text: "write your text here",
+      },
+      {
+        title: "Other idea solutions",
+        text: "write your text here",
+      },
+      {
+        title: "LOW-FI prototypes",
+        text: "write your text here",
+      },
+      {
+        title: "Testing LO-FI prototypes with users",
+        text: "write your text here",
+      },
+      {
+        title: "HI-FI prototype development",
+        text: "write your text here",
+      },
+      {
+        title: "Results and impacts",
+        text: "write your text here",
+      },
+      {
+        title: "Major learnings or points we wanted to call out",
+        text: "write your text here",
+      },
+      {
+        title: "Lessons learned and going forward",
+        text: "write your text here",
+      },
     ],
   },
   {
@@ -40,21 +68,60 @@ const projectData = [
     id: 2,
     isFinished: false,
     img: "",
-    aboutProject: {
-      overviewAndCont: "write your text here",
-      team: "write your text here",
-      challenge: "write your text here",
-      understandingTheUser: "write your text here",
-      synthesizingTheMat: "write your text here",
-      idealtingSol: "write your text here",
-      otherIdeaSol: "write your text here",
-      lowfiProt: "write your text here",
-      testingLofiWithUser: "write your text here",
-      hifiProt: "write your text here",
-      resultsImpacts: "write your text here",
-      majorLearnings: "write your text here",
-      lessonsLearned: "write your text here",
-    },
+    categories: [
+      {
+        title: "Overview and context",
+        text: "write your text here",
+      },
+      {
+        title: "The team",
+        text: "write your text here",
+      },
+      {
+        title: "The challenge",
+        text: "write your text here",
+      },
+      {
+        title: "Understanding the user",
+        text: "write your text here",
+      },
+      {
+        title: "Synthesizing the material",
+        text: "write your text here",
+      },
+      {
+        title: "Ideating solutions",
+        text: "write your text here",
+      },
+      {
+        title: "Other idea solutions",
+        text: "write your text here",
+      },
+      {
+        title: "LOW-FI prototypes",
+        text: "write your text here",
+      },
+      {
+        title: "Testing LO-FI prototypes with users",
+        text: "write your text here",
+      },
+      {
+        title: "HI-FI prototype development",
+        text: "write your text here",
+      },
+      {
+        title: "Results and impacts",
+        text: "write your text here",
+      },
+      {
+        title: "Major learnings or points we wanted to call out",
+        text: "write your text here",
+      },
+      {
+        title: "Lessons learned and going forward",
+        text: "write your text here",
+      },
+    ],
   },
 ];
 

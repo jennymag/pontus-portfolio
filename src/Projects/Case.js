@@ -7,18 +7,20 @@ function Case() {
   const brief = history.location.state.brief;
 
   return (
-    <section id="caseProfile">
-      <h1>{title}</h1>
-      <p>{brief}</p>
-      {projectData.map((obj) => (
-        <ul>
-          <li>
-            {obj.aboutProject.map((category) => ...)}
-            </li>
-        </ul>
-      ))}
+    <section id="projectProfile">
+      <div className="projectIntro">
+        <h1 className="profileH1">{title}</h1>
+        <p className="profileP">{brief}</p>
+      </div>
+      {projectData.map((obj) =>
+        obj.categories.map((category) => (
+          <li className="profile">
+            <h2 className="profileH2">{category.title}</h2>
+            <p className="profileP">{category.text}</p>
+          </li>
+        ))
+      )}
     </section>
   );
 }
-
 export default Case;

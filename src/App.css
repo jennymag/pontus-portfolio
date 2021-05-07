@@ -8,6 +8,9 @@
 body {
   background-color: #232325;
 }
+li {
+  list-style-type: none;
+}
 .stickyNav {
   display: flex;
   position: fixed;
@@ -137,10 +140,6 @@ body {
   align-items: center;
   padding: 70px;
 }
-#caseProfile {
-  padding: 100px;
-  color: white;
-}
 .projectCard {
   display: flex;
   max-width: 1000px;
@@ -231,4 +230,33 @@ body {
   padding: 120px;
   margin-bottom: 150px;
   min-width: 100%;
+}
+#projectProfile {
+  color: white;
+  margin-top: 100px;
+}
+.profile:nth-child(even) {
+  background-color: #282d31;
+}
+.profile {
+  width: 100%;
+  padding: 70px;
+}
+.profileH1 {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.profileP {
+  font-size: 20px;
+  padding-bottom: 40px;
+  max-width: 300px;
+}
+.profileH2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+  max-width: 300px;
+}
+.projectIntro {
+  padding: 40px;
 }
