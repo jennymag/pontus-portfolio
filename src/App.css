@@ -6,6 +6,8 @@
   font-weight: 300;
 }
 body {
+  min-width: 100vh;
+
   background-color: #232325;
 }
 li {
@@ -62,32 +64,30 @@ li {
   padding-left: 10%;
 }
 .aboutCard {
-  width: 1060px;
-  height: 358px;
-  margin: 10% 0px 0 15%;
+  height: 408px;
   background: #2d2d2e;
   box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.25);
   border-radius: 46px 0px 171.5px 46px;
 }
 .aboutBlueCircle {
   position: absolute;
-  width: 542px;
-  height: 542px;
-  border-radius: 50%;
-  top: 200px;
-  margin-left: 70%;
-  background: #2e525e;
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+    width: 342px;
+    height: 342px;
+    border-radius: 50%;
+    top: 200px;
+    margin-left: 60%;
+    background: #2e525e;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 25%);
 }
 .aboutYellowCircle {
   position: absolute;
-  width: 450px;
-  height: 450px;
-  left: 60%;
-  top: 81px;
+  width: 250px;
+  height: 250px;
+  left: 65%;
+  top: 200px;
   border-radius: 50%;
   background: #ffc657;
-  box-shadow: 60px 60px 100px rgba(0, 0, 0, 0.25);
+  box-shadow: 60px 60px 100px rgb(0 0 0 / 25%);
 }
 .avatar {
   width: 90%;
@@ -96,7 +96,8 @@ li {
   margin-top: 5%;
 }
 .aboutH1 {
-  font-size: 70px;
+  padding-top: 30px;
+  font-size: 60px;
   max-width: 400px;
   font-weight: 600;
 }
@@ -207,29 +208,16 @@ li {
   font-weight: 400;
   font-size: 17px;
 }
-.yellowCircle {
-  margin-left: 75%;
-  width: 812px;
-  height: 812px;
-  border-radius: 100%;
-  background: #fdc456;
-}
-.blueCircle {
-  position: relative;
-  width: 770px;
-  height: 770px;
-  border-radius: 100%;
-  background: #2e525e;
-  top: 20px;
-  left: 30px;
-}
 .contactField {
-  margin-top: 200px;
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 120px 0px 120px 120px;
+  margin-top: 100px;
   background-color: #2d2d2e;
-  padding: 120px;
   margin-bottom: 150px;
-  min-width: 100%;
+  max-width: 100%;
 }
 #projectProfile {
   color: white;

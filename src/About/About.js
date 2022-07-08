@@ -15,11 +15,13 @@ function About() {
           more about the world of UX!
         </p>
       </div>
-      <div className="aboutCard"></div>
+      <div className="aboutCard">
       <div className="aboutBlueCircle"></div>
       <div className="aboutYellowCircle">
         <img className="avatar" src={avatar} alt="avatar" />
+      </div> 
       </div>
+      
     </section>
   );
 }

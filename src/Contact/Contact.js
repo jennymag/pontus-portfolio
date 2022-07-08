@@ -10,9 +10,6 @@ function Contact() {
           <a href="mailto:pontus">send me an email</a>
         </button>
       </div>
-      <div className="yellowCircle">
-        <div className="blueCircle"></div>
-      </div>
     </section>
   );
 }
