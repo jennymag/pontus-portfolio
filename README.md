@@ -8,6 +8,6 @@ Development by Jenny Magnessen
 https://pontusportfolio.surge.sh/
 
 # Me
-https://jennym.se \
 Jenny Magnessen\
+https://jennym.se \
 jenny.magnessen@student.kyh.se
